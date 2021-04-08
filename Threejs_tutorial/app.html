@@ -33,7 +33,7 @@
     function loadGLTF() {
         let balloonLoader = new THREE.GLTFLoader();
 
-        balloonLoader.load('./model/untitled.gltf', (gltf) => {
+        balloonLoader.load('./model/RobotHoldingBlueberryblend.gltf', (gltf) => {
             Mesh = gltf.scene;
             Mesh.scale.set(0.2,0.2,0.2);
             scene.add(Mesh);
